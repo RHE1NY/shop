@@ -1,0 +1,147 @@
+
+.product-section {
+    margin-top: 20px;
+    display: inline-block;
+
+    .products {
+        padding: 30px;
+        display: table-cell;
+    width: 260px;
+    height: 200px;
+        .products-title {
+            font-size: 17px;
+            font-family: "56th Street";
+            font-weight: bold;
+            color: midnightblue;
+          cursor: pointer;
+            &:hover {
+              cursor: pointer;
+              color: green;
+            }
+        }
+        .product-image img {
+            height: 60px;
+            width: 60px;
+            margin-left: 70px;
+            border: 2px solid crimson;
+        }
+      .product-description {
+        .addBasket {
+          align-items: center;
+          margin-top: 15px;
+          background-clip: padding-box;
+          background-color: darkcyan;
+          border: 1px solid transparent;
+          border-radius: 5rem;
+          box-sizing: border-box;
+          color: #fff;
+          cursor: pointer;
+          display: inline-flex;
+          font-size: 14px;
+          font-weight: 300;
+          justify-content: center;
+          line-height: 1.25;
+          min-height: 1rem;
+          padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+          text-decoration: none;
+          touch-action: manipulation;
+          vertical-align: baseline;
+          width: auto;
+          &:hover {
+            background-color: white;
+            color:crimson;
+            font-weight: bold;
+          }
+        }
+      }
+        .product-text {
+            font-size: 21px;
+            margin-top: 15px;
+        }
+        .product-count {
+            color:red;
+            .product-price {
+                color: green;
+            }
+        }
+
+    }
+}
+
+.pagination {
+    margin-top: 200px;
+}
+
+.pageBtn {
+    margin-top: -200px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  &:hover {
+    background-color: green;
+  }
+
+}
+.pageBtn_active {
+    background: green;
+    border: 2px solid crimson;
+}
+
+.basket {
+  margin-left: 1750px;
+}
+
+.shop-Item-Page img {
+  height: 250px;
+  display: flex;
+  border: 2px solid plum;
+  justify-content: center;
+  margin-left: 750px;
+  margin-top: 100px;
+  width: 250px;
+
+}
+.shop-Item-Title {
+  font-family: "56th Street";
+  font-weight: bold;
+  font-size: 15px;
+  color: green;
+  margin-left: 700px;
+}
+.shop-Item-Price {
+  font-family: "56th Street";
+  font-weight: bold;
+  font-size: 19px;
+  color: green;
+  margin-left: 800px;
+}
+.shop-Item-Description {
+  font-family: "56th Street";
+  font-weight: bold;
+  display: table;
+  margin-left: 230px;
+  font-size: 15px;
+  color: purple;
+}

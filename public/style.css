@@ -1,0 +1,83 @@
+html {
+  	background:url(unnamed.jpg) no-repeat center top / cover;
+}
+
+header {
+  max-width: 1920px;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+}
+
+header .container {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  margin: 0;
+}
+
+.logo-text {
+  font-family: Times-new-roman, sans-serif;
+  font-size: 35px;
+  color:green;
+  margin:0;
+  text-decoration: none;
+}
+
+.logo-text:hover {
+  color:red;
+  cursor: pointer;
+}
+
+.logo {
+display: flex;
+
+margin: 30px;
+}
+
+.menu {
+  display: flex;
+  margin-left: 600px;
+ align-items: center;
+
+}
+.menu a.menu-item {
+  margin: 0 55px;
+  margin-right: 70px;
+  font-size: 25px;
+  text-decoration: none;
+  color:red;
+}
+
+.menu a.menu-item:hover {
+  color:black;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+}
+
+
+
+#footer {
+  position: fixed; /* Фиксированное положение */
+   left: 0; bottom: 0; /* Левый нижний угол */
+   padding: 15px; /* Поля вокруг текста */
+   background: pink; /* Цвет фона */
+   color: black; /* Цвет текста */
+   width: 100%; /* Ширина слоя */
+}
+
+.podval-text {
+  font-size: 20px;
+  color: black;
+  margin-top: 3px;
+}
+
+.social {
+  margin-left:1830px;
+  height: 30px;
+  width: 30px;
+  margin-top: -23px;
+  margin-bottom: 5px;
+}
