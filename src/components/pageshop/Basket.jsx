@@ -8,7 +8,7 @@ const Basket = () => {
     return (
         <div>
             <img src="logo.jpg" width="50px"></img>
-            {basket}
+            {basket.length}
         </div>
     );
 };
